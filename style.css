@@ -1,0 +1,56 @@
+body {
+  background-color: #fdf8f5;
+  color: #2b1d14;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Lora", serif;
+}
+
+.hero {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6f4e37;
+  background-image:
+    linear-gradient(rgba(43, 29, 20, 0.6), rgba(43, 29, 20, 0.6)),
+    url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-kopi {
+  background-color: #d4a373;
+  color: #2b1d14;
+  border: none;
+}
+
+.btn-kopi:hover {
+  background-color: #b98555;
+  color: #2b1d14;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer-kopi {
+  background-color: #4a3324;
+  color: #fdf8f5;
+}
+
+.link-footer {
+  color: #d4a373;
+}
+
+.link-footer:hover {
+  color: #fdf8f5;
+}

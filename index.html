@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Kedai Kopi Nusantara</title>
+  </head>
+  <body>
+    <!-- BAGIAN NAVBAR INI -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- 1. BAGIAN LOGO / JUDUL -->
+        <a class="navbar-brand fw-bold text-warning" href="index.html"
+          >☕ Kopi Nusantara</a
+        >
+
+        <!-- 2. TOMBOL HAMBURGER (Otomatis muncul kalau dibuka di HP) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNavigasi"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- 3. BAGIAN DAFTAR MENU -->
+        <div class="collapse navbar-collapse" id="menuNavigasi">
+          <ul class="navbar-nav w-100 justify-content-lg-around">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero text-center text-white">
+        <div class="container">
+          <h1 class="display-4 fw-bold">Kedai Kopi Nusantara</h1>
+          <hr class="border-white border-2 opacity-100 w-50 mx-auto" />
+          <p class="lead mb-4">
+            Kopi pilihan dari Gayo, Toraja, Kintamani, dan Flores.
+          </p>
+          <a href="menu.html" class="btn btn-kopi btn-lg">Lihat Menu</a>
+        </div>
+      </section>
+
+      <!-- section keunggulan dst di bawah sini -->
+      <section class="py-5">
+        <div class="container">
+          <h2 class="mb-4">Keunggulan Kami</h2>
+
+          <div class="row g-4">
+            <!-- KARTU 1 -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <article class="card h-100">
+                <img
+                  src="assets/biji-kopi.jpg"
+                  class="card-img-top"
+                  alt="Biji kopi lokal dalam karung"
+                />
+                <div class="card-body">
+                  <h3 class="card-title h5">Kopi Biji Lokal</h3>
+                  <p class="card-text">
+                    Biji kopi dipilih langsung dari petani lokal.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- KARTU 2: copy blok di atas, ganti isinya -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <article class="card h-100">
+                <img
+                  src="assets/suasana-nyaman.jpg"
+                  class="card-img-top"
+                  alt="Suasana nyaman di dalam kedai kopi"
+                />
+                <div class="card-body">
+                  <h3 class="card-title h5">Suasana Nyaman</h3>
+                  <p class="card-text">
+                    Tempat santai untuk ngobrol atau belajar.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- KARTU 3 -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <article class="card h-100">
+                <img
+                  src="assets/cafe-laptop.jpg"
+                  class="card-img-top"
+                  alt="Pelanggan bekerja dengan laptop di kedai"
+                />
+                <div class="card-body">
+                  <h3 class="card-title h5">WiFi Gratis</h3>
+                  <p class="card-text">Internet cepat untuk pelanggan.</p>
+                </div>
+              </article>
+            </div>
+
+            <!-- KARTU 4 -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <article class="card h-100">
+                <img
+                  src="assets/gambar-buy.jpg"
+                  class="card-img-top"
+                  alt="Secangkir kopi dengan harga terjangkau"
+                />
+                <div class="card-body">
+                  <h3 class="card-title h5">Harga Bersahabat</h3>
+                  <p class="card-text">
+                    Kopi berkualitas, harga ramah di kantong.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-kopi text-center py-4">
+      <div class="container">
+        <p class="mb-2">
+          Jl. Sigma Skibidi No. 12, Jakarta &bull; Buka setiap hari 08.00 -
+          22.00 &bull;
+          <a href="https://www.instagram.com/" class="link-footer">Instagram</a>
+        </p>
+        <p class="mb-0">&copy; 2026 Kedai Kopi Nusantara</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
