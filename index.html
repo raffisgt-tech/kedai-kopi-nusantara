@@ -17,46 +17,55 @@
     <title>Kedai Kopi Nusantara</title>
   </head>
   <body>
-    <!-- BAGIAN NAVBAR INI -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <!-- 1. BAGIAN LOGO / JUDUL -->
-        <a class="navbar-brand fw-bold text-warning" href="index.html"
-          >☕ Kopi Nusantara</a
-        >
-
-        <!-- 2. TOMBOL HAMBURGER (Otomatis muncul kalau dibuka di HP) -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#menuNavigasi"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- 3. BAGIAN DAFTAR MENU -->
-        <div class="collapse navbar-collapse" id="menuNavigasi">
-          <ul class="navbar-nav w-100 justify-content-lg-around">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-kopi">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="assets/logo-kopi.png"
+              alt="Logo Kedai Kopi Nusantara"
+              height="48"
+              class="me-2"
+            />
+            <span class="brand-kopi"
+              >Kopi <span class="brand-nusantara">Nusantara</span></span
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 justify-content-lg-around">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <main>
       <section class="hero text-center text-white">
