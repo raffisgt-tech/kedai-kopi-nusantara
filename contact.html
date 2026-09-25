@@ -14,7 +14,8 @@
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
-    <title>Kedai Kopi Nusantara</title>
+    <title>Contact - Kedai Kopi Nusantara</title>
+    <link rel="icon" type="image/png" href="assets/logo-kopi.png" />
   </head>
   <body>
     <header>
@@ -45,9 +46,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav w-100 justify-content-lg-around">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -59,7 +58,12 @@
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -70,71 +74,89 @@
     <main>
       <section class="py-5">
         <div class="container">
-          <h1 class="mb-4">Hubungi Kami</h1>
-          <div class="row g-5">
+          <h1 class="mb-2">Hubungi Kami</h1>
+          <div class="garis-aksen mb-4"></div>
+
+          <div class="row g-4">
             <!-- KIRI: info kontak + peta -->
             <div class="col-12 col-xl-6">
-              <h2 class="h5 mb-3">Informasi Kontak</h2>
-              <ul class="list-unstyled">
-                <li class="mb-2">Jl. Contoh No. 12, Jakarta</li>
-                <li class="mb-2">Buka setiap hari, 08.00 - 22.00</li>
-                <li class="mb-2">0812-3456-7890 (WA)</li>
-                <li class="mb-2">
-                  <a href="https://www.instagram.com/" class="link-footer"
-                    >Instagram</a
-                  >
-                  &bull;
-                  <a href="https://www.facebook.com/" class="link-footer"
-                    >Facebook</a
-                  >
-                </li>
-              </ul>
+              <div class="card h-100 p-4">
+                <h2 class="h5 mb-3">Informasi Kontak</h2>
+                <ul class="list-unstyled mb-4">
+                  <li class="d-flex align-items-start mb-3">
+                    <span class="ikon-kontak me-3">📍</span>
+                    <span>Jl. Sigma Skibidi No. 12, Jakarta</span>
+                  </li>
+                  <li class="d-flex align-items-start mb-3">
+                    <span class="ikon-kontak me-3">🕒</span>
+                    <span>Buka setiap hari, 08.00 - 22.00</span>
+                  </li>
+                  <li class="d-flex align-items-start mb-3">
+                    <span class="ikon-kontak me-3">📱</span>
+                    <span>0812-3456-7890 (WA)</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <span class="ikon-kontak me-3">🌐</span>
+                    <span>
+                      <a href="https://www.instagram.com/" class="link-footer"
+                        >Instagram</a
+                      >
+                      &bull;
+                      <a href="https://www.facebook.com/" class="link-footer"
+                        >Facebook</a
+                      >
+                    </span>
+                  </li>
+                </ul>
 
-              <div class="ratio ratio-16x9">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.997!2d106.6431!3d-6.3018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  title="Peta lokasi Kedai Kopi Nusantara"
-                >
-                </iframe>
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4507.550843056013!2d106.5544570067967!3d-6.164859251733995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff2e50e9d7db%3A0x2716e60d1c27b235!2sBarempat%20Bumi%20Indah%20(Cafe%20Mocktail)!5e0!3m2!1sen!2sid!4v1790300458657!5m2!1sen!2sid"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    title="Peta lokasi Kedai Kopi Nusantara"
+                  >
+                  </iframe>
+                </div>
               </div>
             </div>
 
             <!-- KANAN: form kontak -->
             <div class="col-12 col-xl-6">
-              <h2 class="h5 mb-3">Kirim Pesan</h2>
-              <form>
-                <div class="mb-3">
-                  <label for="nama" class="form-label">Nama</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="nama"
-                    name="nama"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="pesan" class="form-label">Pesan</label>
-                  <textarea
-                    class="form-control"
-                    id="pesan"
-                    name="pesan"
-                    rows="4"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn btn-kopi">Kirim</button>
-              </form>
+              <div class="card h-100 p-4">
+                <h2 class="h5 mb-3">Kirim Pesan</h2>
+                <form>
+                  <div class="mb-3">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nama"
+                      name="nama"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label">Pesan</label>
+                    <textarea
+                      class="form-control"
+                      id="pesan"
+                      name="pesan"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-kopi">Kirim</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
